@@ -34,7 +34,7 @@ Create MySQL database and credentials and configure the same in:
 ### Schema Import
 
 Import the schema into MySQL database:
-
+Make schema "dvja" is created
 ```
 $ mysql -u USER -pPASSWORD dvja < ./db/schema.sql
 ```
