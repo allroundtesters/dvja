@@ -13,5 +13,5 @@ COPY . .
 RUN mvn clean package
 RUN chmod 755 /app/scripts/start.sh
 
-EXPOSE 8080
+EXPOSE 9090
 CMD ["sh", "-c", "/app/scripts/start.sh"]
